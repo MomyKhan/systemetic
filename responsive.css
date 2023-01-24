@@ -1,0 +1,135 @@
+
+@media  screen  and (max-width: 990px){
+    .mean-container .mean-nav {
+        width: 80%;
+        margin-top: 0;
+        z-index: 1;
+}
+.mean-container .mean-nav ul li a:hover{
+    background: black;
+    z-index: 2;
+
+}
+.mean-container .mean-bar {
+    padding: 0px 0;   
+}
+
+.search_bar i {
+    font-size: 14px;
+    width: 12px;
+    height: 12px;
+}
+.logo_area {
+    max-width: 200px;  
+}
+.social_area {
+    max-width: 260px;
+}
+.big_img {
+    width: 50%;
+    float: left;
+}
+.h_p {
+   /* max-width: 443px;*/
+    width: 46%;
+    float: right;
+    margin: 2%;
+}
+.h_p h2 {
+    font-size: 70px;
+}
+.h_p p {
+    font-size: 15px;
+}
+.h_p a {
+    margin: 18px 0;
+}
+.child_footer ul li a {
+    font-size: 13px;
+}
+.mean-container .mean-nav ul {
+    z-index: 1;
+}
+}
+
+
+@media  screen  and (max-width: 700px){
+    .mini_menu {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .search_bar,.logo_area,.social_area {
+        width: 100%;
+        max-width: 260px;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .search_bar form {
+        margin-bottom: 10px;
+    }
+.social_area ul {
+    text-align: center;
+}
+.social_area ul li {
+    margin-left: 0px;
+}
+
+.big_img {
+   /* max-width: 300px;*/
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+}
+.h_p {
+    /*max-width: 395px;*/
+    width: 100%;
+    float: none;
+    margin: 20px auto;
+   
+}
+.h_p h2 {
+    font-size: 53px;
+    text-align: left;
+}
+
+#big_content_area {
+    padding: 20px 0;
+}
+.child_area {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.service_text p {
+    line-height: normal;
+    margin-top: 0px;
+    font-size: 13px;
+}
+.child_footer {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.left_copyright {
+    width: 100%;
+    margin-bottom: 8px;
+}
+.right_copyright {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+}
+@media  screen  and (max-width: 260px){
+    .social_area ul li {
+        font-size: 15px;
+    }
+    .social_area ul li a i {
+        margin-left: 10px;
+        margin-bottom: 10px;
+       
+    }
+}
+
